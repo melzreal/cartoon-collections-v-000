@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   count = dwarves.length
   dwarves.each do |number|
-    while  < dwarves.length
+    while count 
 
   end
 
