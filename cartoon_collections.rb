@@ -2,11 +2,10 @@ def roll_call_dwarves(dwarves)
   count = 0
   
   dwarves.each do |number|
-  
     while count != dwarves.length 
     count += 1 
     puts "#{count} + #{number}" 
-  end
+    end
   end
   
 
