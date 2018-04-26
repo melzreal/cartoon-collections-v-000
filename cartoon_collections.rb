@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(calls)
     
-  calls.select do |check| 
+  calls.detect do |check| 
     if check.length > 4
       return true
     else 
