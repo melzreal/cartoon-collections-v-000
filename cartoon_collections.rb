@@ -17,7 +17,15 @@ def summon_captain_planet(cartoons)
 end
 
 def long_planeteer_calls(calls)
-  calls.select{|i| i > 4 ? true : false  }
+    
+  calls.select do |check| 
+    if check.length > 4
+      return true
+    else 
+      return false
+    end  
+    
+end
   
   
 end
