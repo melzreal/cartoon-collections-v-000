@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
     while count != dwarves.length 
     count += 1 
     puts "#{count} + #{number}" 
-
+  end
   end
   
 
