@@ -17,7 +17,9 @@ def summon_captain_planet(cartoons)
 end
 
 def long_planeteer_calls(calls)
-  calls.select{|i| i > 4 ? true : false  
+  calls.select{|i| i > 4 ? true : false  }
+  
+  
 end
 
 def find_the_cheese# code an argument here
