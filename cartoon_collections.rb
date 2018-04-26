@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
   
   dwarves.each do |number|
   
-    while count != 0 
+    while count != dwarves.length 
     count -= 1 
     
 
