@@ -18,13 +18,8 @@ end
 
 def long_planeteer_calls(calls)
     
-  calls.detect do |check| 
-    if check.length > 4
-      return true
-    else 
-      return false
-    end  
-    
+ calls.detect{|check| check.length > 4 ? true : false}
+ 
 end
   
   
