@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
   dwarves.each do |number|
     while count != dwarves.length 
     count += 1 
-    puts "#{count}  #{number}" 
+    puts "#{count} #{number}" 
     end
   end
 end
