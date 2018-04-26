@@ -25,6 +25,7 @@ def find_the_cheese(string_arr)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
   
+  string_arr.index { |x| x == cheese_types}
   
 end
 
