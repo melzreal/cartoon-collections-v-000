@@ -12,7 +12,7 @@ end
 
 
 def summon_captain_planet(cartoons)
-  cartoons.map! {|toon| toon.capitalize }
+  cartoons.map! {|toon| toon.capitalize + "!" }
   
 end
 
