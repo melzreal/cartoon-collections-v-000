@@ -1,17 +1,15 @@
 def roll_call_dwarves(dwarves)
 
-  
-  dwarves.each do |number|
-    count = 0
-    dwarf_arr = []  
-    while count != dwarves.length 
-    count += 1 
-    dwarf_arr.push(puts "#{count} #{number}") 
+  dwarves_arr = []
+
+    dwarves.each.with_index(1) do |dwarf, i|
+      dwarves_arr << " #{i} #{dwarf}"
     end
     
-  end
-end
+  puts dwarves_arr
   
+end
+
 
 def summon_captain_planet# code an argument here
   # Your code here
