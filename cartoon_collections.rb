@@ -4,10 +4,11 @@ def roll_call_dwarves(dwarves)
   dwarves.each do |number|
   
     while count != dwarves.length 
-    count -= 1 
-    
+    count += 1 
+    puts "#{count} + #{number}" 
 
   end
+  
 
 def summon_captain_planet# code an argument here
   # Your code here
