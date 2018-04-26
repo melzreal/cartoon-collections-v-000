@@ -18,7 +18,9 @@ end
 
 def long_planeteer_calls(calls)
     
-  calls.detect{|check| check.length > 4 ? true : false}
+   len = calls.detect{|check| check.length > 4 ? true : false} 
+    
+ len != nil  ? true : false 
     
 end
 
